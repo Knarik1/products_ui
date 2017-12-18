@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container_flex_col">
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="products_container container_flex_col">
+            <div class="container">
+                    <div class="description_products">
+                        <h3>Where you are now</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam asperiores culpa dolore doloribus, dolorum eos nam placeat praesentium quaerat quas, quasi, quidem quos recusandae soluta veritatis vero? Eaque, molestias?</p>
+                        <button class="btn btn_blue">Get Tutorials</button>
+                    </div>
+                </div>
+            <div class="product_items container_flex_col container_dark">
+                <div class="container_flex">
+                    <div class="flex_item">
+                        <h3 class="item_title">Vital Analitics</h3>
+                    </div>
+                    <div class="flex_item">
+                        <h3 class="item_title">Powertech</h3>
+                        <button class="btn change_user_btn">Log in with different user</button>
+                    </div>
+                    <div class="flex_item">
+                        <h3 class="item_title">AutoMate Schedule</h3>
+                    </div>
+                    <div class="flex_item">
+                        <h3 class="item_title">Product N</h3>
+                    </div>
+                    <div class="flex_item">
+                        <h3 class="item_title">Product X</h3>
+                    </div>
+                    <div class="flex_item">
+                        <h3 class="item_title">Dashbords</h3>
+                    </div>
+                </div>
+                <div class="more_items">
+                    <a href="#">More Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="login_container" style="display: none">
+            <div class="login_div">
+                <h3>Log In</h3>
+                <div class="item_flex_div ">
+                    <label>Product</label><br>
+                    <div class="select_div">
+                        <select name="products" class="item_flex" id="">
+                            <option value="none"></option>
+                            <option value="">Vital Analitics</option>
+                            <option value="">Powertech</option>
+                            <option value="">AutoMate Schedule</option>
+                            <option value="">Product N</option>
+                            <option value="">Product X</option>
+                            <option value="">Dashbords</option>
+                        </select>
+                        <div class="arrow_div"><img src="images/down-arrow.svg"></div>
+                    </div>
+                </div>
+                <div class="item_flex_div">
+                    <label>Username</label><br>
+                    <input type="email" class="item_flex">
+                </div>
+                <div class="item_flex_div">
+                    <label>Password</label><br>
+                    <input type="password" class="item_flex">
+                </div>
+                <div class="item_flex_button_div">
+                    <button id="login_btn" class="item_flex">Login</button>
+                </div>
+            </div>
+        </div>
+        <div class="product_details_container" style="display: none">
+            <div class="container">
+                <div class="description_details">
+                    <h3>Product Name</h3>
+                    <img src="images/halflings-th.svg" alt="img">
+                </div>
+            </div>
+            <div class="product_item_details container_flex_col container_dark ">
+                <div class="container_flex_1">
+                    <div class="flex_item demo_video">
+                        <h3 class="item_title">Product Demo Video</h3>
+                    </div>
+                    <div class="flex_item login_div">
+                        <h3>Log In</h3>
+                        <div class="item_flex_div">
+                            <label>Username</label><br>
+                            <input type="email" class="item_flex">
+                        </div>
+                        <div class="item_flex_div">
+                            <label>Password</label><br>
+                            <input type="password" class="item_flex">
+                        </div>
+                        <div class="item_flex_button_div">
+                            <button id="login_btn" class="item_flex">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_flex_2">
+                    <div class="flex_item product_detail">
+                        <h3 class="item_title">Product Details</h3>
+                    </div>
+                </div>
+            </div>
+        </div >
+    </section>
+</body>
+</html>
